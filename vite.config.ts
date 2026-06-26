@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/kizma-birader/", // GitHub Pages alt dizini için bu satır eklendi
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
